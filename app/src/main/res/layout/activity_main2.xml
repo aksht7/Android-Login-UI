@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akshat.gui.Main2Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/gradient"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="   Sign Up"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/et1"
+        android:layout_alignStart="@+id/et1"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:text="   "
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/et1"
+        android:layout_alignStart="@+id/et1"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="19dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et1"
+        android:layout_alignRight="@+id/et1"
+        android:layout_below="@+id/tv2"
+        android:ems="10"
+        android:background="@drawable/rounded_text"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/et2"
+        android:layout_alignStart="@+id/et2"
+        android:layout_below="@+id/et2"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv3"
+        android:layout_alignStart="@+id/tv3"
+        android:layout_below="@+id/tv3"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/et3"
+        android:layout_alignStart="@+id/et3"
+        android:layout_below="@+id/et3"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button"
+        android:text="Sign In"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

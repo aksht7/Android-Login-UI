@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akshat.gui.MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/linearLayout"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle"
+        android:src="@mipmap/logoo"
+        android:layout_marginTop="68dp" />
+
+    <EditText
+        android:id="@+id/lt"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/pf"
+        android:layout_alignStart="@+id/pf"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="      username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <EditText
+        android:id="@+id/pf"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="      password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/lgin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pf"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/sign"
+        android:layout_toStartOf="@+id/sign"
+        android:background="@drawable/rounded_button"
+        android:text="LOGIN"
+        android:textColor="@color/gr" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lgin"
+        android:layout_alignEnd="@+id/pf"
+        android:layout_alignRight="@+id/pf"
+        android:layout_alignTop="@+id/lgin"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:background="@drawable/rounded_button"
+        android:text="Sign Up"
+        android:textColor="@color/gr" />
+
+</RelativeLayout>
