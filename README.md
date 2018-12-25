@@ -2,4 +2,4 @@
 Android Login and SignUp UI for App Development
 
 
-![Sample Images](Downloads/Captue.PNG)
+![Sample Images](C:/Users/Akshat/Downloads/Captue.PNG)
