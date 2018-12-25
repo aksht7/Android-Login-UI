@@ -2,5 +2,5 @@
 Android Login and SignUp UI for App Development
 
 
-![GitHub Logo](C:\Users\Akshat\Downloads\Captue.PNG)
+![GitHub Logo](C:/Users/Akshat/Downloads/Captue.PNG)
 Format: ![Alt Text](url)
